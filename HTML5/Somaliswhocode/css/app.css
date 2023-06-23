@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(38, 38, 38); */
+
+}
+
+/* body{
+    /* background: rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;    */
+
+   .container{
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(53, 53, 53);
+}
+.hero img{
+transform: translateY(-20px)translateX(110px);
+width: 1200px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    transform: translateY(-20px);
+    background-color: rgb(33, 32, 32);
+    
+}
+.logo img{
+    width: 200px;
+    transform: translateY(10px);
+}
+
+.menus{
+    display: flex;
+    padding: 0 20px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;    
+}
+.aply{
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.man img{
+    transform: translateY(-655px)translateX(720px);
+    animation-name: warwareeg;
+    animation-duration: 5.9s;
+    animation-iteration-count: infinite;
+    width: 500px;
+
+}
+
+@keyframes warwareeg{
+    /* 0%{
+        rotate: 90deg;
+    }
+    50%{
+        rotate: 45deg;
+    }
+    100%{
+        rotate: 90deg;
+    } */
+}
+
+.techs{
+    text-transform: capitalize;
+    transform: translateY(-500px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 20px;
+    padding: 20px;
+}
